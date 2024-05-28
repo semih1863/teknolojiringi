@@ -21,6 +21,43 @@ const Skills = () => {
       <SkillText />
 
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 z-50">
+          <a href="#">
+            <img
+              className="rounded-t-lg"
+              src="semih.png"
+              alt=""
+              style={{ width: "100%", height: "300px" }}
+            />
+          </a>
+          <div className="p-5 bg-opacity-500">
+            <a href="#">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Semih Serdar Bulut
+              </h5>
+            </a>
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Elektrik-Elektronik Mühendisi
+            </p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-around",
+                alignContent: "center",
+              }}
+            >
+              <a href="#" style={{ cursor: "pointer" }}>
+                <FaTwitter size={35} style={{ cursor: "pointer" }} />
+              </a>
+              <a href="https://www.instagram.com/semihbulutt0?igsh=MTh5bjcwaDZ1MmV4cA==">
+                <PiInstagramLogoFill size={35} style={{ cursor: "pointer" }} />
+              </a>
+              <a href="https://www.linkedin.com/in/semih-bulut-945493211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <IoLogoLinkedin size={35} style={{ cursor: "pointer" }} />
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 z-50">
           <a href="#">
             <img
@@ -53,43 +90,6 @@ const Skills = () => {
                 <PiInstagramLogoFill size={35} style={{ cursor: "pointer" }} />
               </a>
               <a href="https://www.linkedin.com/in/leyla-%C5%9Fener-3262121b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-                <IoLogoLinkedin size={35} style={{ cursor: "pointer" }} />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 z-50">
-          <a href="#">
-            <img
-              className="rounded-t-lg"
-              src="semih.png"
-              alt=""
-              style={{ width: "100%", height: "300px" }}
-            />
-          </a>
-          <div className="p-5 bg-opacity-500">
-            <a href="#">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Semih Serdar Bulut
-              </h5>
-            </a>
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Elektrik-Elektronik Mühendisi
-            </p>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-around",
-                alignContent: "center",
-              }}
-            >
-              <a href="#" style={{ cursor: "pointer" }}>
-                <FaTwitter size={35} style={{ cursor: "pointer" }} />
-              </a>
-              <a href="https://www.instagram.com/semihbulutt0?igsh=MTh5bjcwaDZ1MmV4cA==">
-                <PiInstagramLogoFill size={35} style={{ cursor: "pointer" }} />
-              </a>
-              <a href="https://www.linkedin.com/in/semih-bulut-945493211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <IoLogoLinkedin size={35} style={{ cursor: "pointer" }} />
               </a>
             </div>
