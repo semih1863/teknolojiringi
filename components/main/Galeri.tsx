@@ -41,7 +41,11 @@ const Galeri = () => {
     { type: "image", source: "sumo.png" },
   ];
 
-  const videoData = [{ type: "video", source: "video1.mp4" }];
+  const videoData = [
+    { type: "video", source: "video1.mp4" },
+    { type: "video", source: "sumoVideo2.mp4" },
+    { type: "video", source: "sumoVideo1.mp4" },
+  ];
 
   return (
     <div
@@ -98,7 +102,7 @@ const Galeri = () => {
           <button
             onClick={nextSlide}
             className="absolute top-1/2 -translate-y-1/2 right-0 bg-white bg-opacity-50 p-2 rounded-full focus:outline-none">
-             <svg
+            <svg
               className="w-6 h-6 text-gray-800"
               fill="none"
               stroke="currentColor"
@@ -133,7 +137,7 @@ const Galeri = () => {
           {videoData.map((item, index) => (
             <video
               key={index}
-              style={{height:"500px"}}
+              style={{ height: "500px" }}
               controls
               className={`w-full h-full object-cover rounded-lg ${
                 index === currentSlide2 ? "block" : "hidden"
@@ -163,7 +167,7 @@ const Galeri = () => {
           <button
             onClick={nextSlide2}
             className="absolute top-1/2 -translate-y-1/2 right-0 bg-white bg-opacity-50 p-2 rounded-full focus:outline-none">
-             <svg
+            <svg
               className="w-6 h-6 text-gray-800"
               fill="none"
               stroke="currentColor"

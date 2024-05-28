@@ -102,3 +102,18 @@ html {
   scrollbar-width: thin; /* Kaydırma çubuğunun genişliği */
   scrollbar-color: #fff #000; /* Kaydırma çubuğu ve izi için renkler */
 }
+/* Mobil */
+@media(max-width:798px){
+  .socialLinksGroup{
+    display: none;
+  }
+  .Welcome-text{
+    max-width: 250px;
+  }
+  .dicleUniversityDiv{
+    font-size: 40px;
+  }
+  .dicleUniversity{
+    font-size: 40px;
+  }
+}
