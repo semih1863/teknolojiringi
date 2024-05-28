@@ -27,7 +27,7 @@ const Skills = () => {
               className="rounded-t-lg"
               src="semih.png"
               alt=""
-              style={{ width: "100%", height: "300px" }}
+              style={{ width: "300px", height: "300px" }}
             />
           </a>
           <div className="p-5 bg-opacity-500">
@@ -64,7 +64,7 @@ const Skills = () => {
               className="rounded-t-lg"
               src="leyla.jpeg"
               alt=""
-              style={{ width: "100%", height: "300px" }}
+              style={{ width: "300px", height: "300px" }}
             />
           </a>
           <div className="p-5 bg-opacity-500">
@@ -101,7 +101,7 @@ const Skills = () => {
               className="rounded-t-lg"
               src="mehmet.png"
               alt=""
-              style={{ width: "100%", height: "300px" }}
+              style={{ width: "300px", height: "300px" }}
             />
           </a>
           <div className="p-5 bg-opacity-500">
